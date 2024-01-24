@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    color: rgb(86, 83, 80);
+    text-shadow: 1px 1px 2px white;
+    font-family:'Pacifico',fantasy;
+}
+.card-header{
+    color: rgb(219, 213, 213);
+    background-color: #7e4b3a;
+background-image: linear-gradient(160deg, #7e4b3a 0%, #f7d7b6 100%);
+
+}
+#reset
+{
+    color: red ;
+}
+.card{
+    background-color: rgba(229, 247, 246, 0.821);
+}
+
+

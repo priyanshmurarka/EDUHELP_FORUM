@@ -1,0 +1,66 @@
+#logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+img{
+  position: absolute;
+  opacity: 80%;
+}
+center {
+  position: relative;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  display: flex;
+  width: 70px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+}
+#upload-form {
+  position: relative;
+  margin: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-content: space-evenly;
+}
+#subject {
+  border-radius: 5px;
+  opacity: 0.3;
+}
+#year {
+  border-radius: 5px;
+  opacity: 0.3;
+}
+#topic {
+  border-radius: 5px;
+  opacity: 0.3;
+}
+#pdf-list {
+  z-index: 5;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.soul {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(84, 84, 103);
+  border-radius: 10px;
+  /* background-color: #ffffff;
+  background-image: linear-gradient(160deg, #ffffff 0%, #adb1af 100%); */
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #c9eef1 50%, #bae8f9 100%);
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}

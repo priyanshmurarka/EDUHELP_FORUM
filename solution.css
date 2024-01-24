@@ -1,0 +1,39 @@
+#logo
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: lavenderblush;
+}
+#upload_widget{
+    margin: 10px;
+    }
+    #uploaded-files{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .file-card {
+        border: 2px solid #837272cf;
+        background-color: rgba(238, 206, 168, 0.799);
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .file-card img {
+        border-radius: 6px;
+        max-width: auto;
+        height: 200px;
+      }
+      .text{
+        color: rgba(79, 107, 120, 0.745);
+        font-family: sans-serif;
+        font-style: italic;
+        font-size: 1rem;
+        margin-bottom: 5px;
+        margin-top: 5px;
+      }

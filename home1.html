@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="home.css" />
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a id="logo" class="navbar-brand" href="#">Eduhelp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="mystic.html"
+                >Study Material</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="doubt.html">Doubts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="solution.html">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+          <br />
+          <button class="btn btn-outline-danger" onclick="logout()">
+            Logout
+          </button>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <div class="headerbox">Share, Discuss, Thrive: Explore Eduhelp Forum !</div>
+    <br />
+    <center>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img1.jpeg" class="d-block" alt="" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="janko-ferlic-sfL_QOnmy00-unsplash.jpg"
+              class="d-block"
+              alt=""
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="thought-catalog-505eectW54k-unsplash.jpg"
+              class="d-block"
+              alt=""
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </center>
+    <center>
+      <div class="text">
+        Discover a dynamic online platform designed to enhance your educational
+        journey. Eduhelp Forum brings students together in a
+        collaborative digital space where knowledge meets community. Whether
+        you're looking to share class materials, engage in discussions, or find
+        solutions to academic challenges, our platform provides the tools for
+        seamless interaction. Connect with peers, access a wealth of educational
+        resources, and embark on a journey of shared learning. Join us in
+        shaping an innovative and supportive online community. Your academic
+        adventure begins here!
+      </div>
+    </center>
+    <center>
+      <footer class="container-fluid">
+        <div class="footerbox">
+          <p>Copyright &copy; Mystic Private Ltd. All rights reserved.</p>
+        </div>
+      </footer>
+    </center>
+    
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="firebase.js"></script>
+    <script src="mystic.js"></script>
+  </body>
+</html>
